@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 50 - Issue fixes assignment</title>
+    <script src="assignment.issues.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container bg-light py-3 shadow">
+        <h1>Welcome <span class='text-bold' id="uname"> </span> </h1>
+        <h1>Fix the Errors in JS</h1>
+
+        <div class="my-4">
+            <button class="btn btn-warning" onclick="showName()">Show My Name</button>
+            <button class="btn btn-primary" onclick="greetUser()">Greet me</button>
+            <button class="btn btn-success" onclick="calculateNum(10, 20, 'add')"> Calculate(10,20) </button>
+            <button class="btn btn-primary" onclick="changeTitle()">Change all title texts</button>
+            <button class="btn btn-danger" onclick="printPage()">Print Page</button>
+        </div>
+
+
+        <input type="text" class="form-control" id="output_box" placeholder="Your result is...">
+
+        <h3 class="my-2 text-secondary title-text" id="text-change">Title Text: This title text should change</h3>
+        <h3 class="my-2 text-secondary title-text" id="text-change">Title Text: This title text should change</h3>
+
+        <a href="javascript: alert('link clicked') ">This link is defferent. href attribute </a>
+
+    </div>
+</body>
+
+</html>
